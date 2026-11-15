@@ -1,16 +1,12 @@
 # ReGrow | Land Observatory
 
+**[Open the live ReGrow dashboard on Cloudflare Pages](https://regrow.pages.dev/)**
+
+Anyone can open **regrow.pages.dev** in a browser on a phone, tablet, or computer with an internet connection. No sign-in or installation is needed.
+
 Explore four satellite observations of Amaravati, Andhra Pradesh. Select one of 16 study sectors to see where vegetation, exposed ground, surface water and built cover changed. The area report shows how much land had usable observations on both dates, so cloud gaps do not become apparent land loss.
 
-[Open the dashboard](https://regrow.pages.dev/) · [Download the dataset](Dataset/ReGrow_Amaravati_Full_Dataset.csv) · [Read the column guide](Dataset/ReGrow_Amaravati_CSV_Guide.md)
-
-## Run locally
-
-With Node.js 20 or newer, run the following from the repository root. The dashboard opens at http://localhost:4317 after you start the server. The fitted model and observations are included. Background imagery and terrain use online tile services.
-
-~~~sh
-npm start
-~~~
+[Download the dataset](Dataset/ReGrow_Amaravati_Full_Dataset.csv) · [Read the column guide](Dataset/ReGrow_Amaravati_CSV_Guide.md)
 
 Select a date and click a sector. **At a glance** summarizes its current cover and paired changes. **Vegetation history** and **Water history** compare the same usable footprint across the four dates. The planning slider shows how vegetation area would change if a chosen fraction of exposed ground were restored. Water values measure surface extent in square kilometres. Crop examples require local soil and field checks.
 
@@ -32,6 +28,14 @@ Later dates use the 2021 classifier and lack independent field validation. A sep
 ### Radar coverage
 
 The [NISAR catalogue search](data/sar/selected-nisar.json) identifies a same-track GCOV pair covering the study window on 23 October and 4 November 2026. The included radar scripts support discovery and authenticated product inspection. Radar catalogue records carry no backscatter measurements. All dashboard classifications in this release use HLS optical observations.
+
+## Optional local setup for developers
+
+With Node.js 20 or newer, run the following from the repository root. After the server starts, open `http://localhost:4317` on that computer. The fitted model and observations are included. Background imagery and terrain use online tile services.
+
+~~~sh
+npm start
+~~~
 
 ## Reproduce the model
 
