@@ -1,0 +1,10 @@
+[
+  {
+    "id": "sentinel-1-grd",
+    "title": "Sentinel 1 Level-1 Ground Range Detected (GRD)"
+  },
+  {
+    "id": "sentinel-1-rtc",
+    "title": "Sentinel 1 Radiometrically Terrain Corrected (RTC)"
+  }
+]

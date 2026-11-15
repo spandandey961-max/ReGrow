@@ -1,0 +1,39 @@
+{
+  "bbox": [
+    80.475,
+    16.49,
+    80.555,
+    16.57
+  ],
+  "sources": [
+    {
+      "id": "NISAR_L2_PR_GCOV_033_156_A_010_4005_DHDH_A_20261023T000914_20261023T000949_P05036_N_F_J_001",
+      "date": "2026-10-23T00:09:14.000Z",
+      "track": "156",
+      "direction": "A",
+      "frame": "010",
+      "bandwidth_mode": "4005",
+      "polarization_mode": "DHDH",
+      "url": "https://nisar.asf.earthdatacloud.nasa.gov/NISAR/NISAR_L2_GCOV_V1/NISAR_L2_PR_GCOV_033_156_A_010_4005_DHDH_A_20261023T000914_20261023T000949_P05036_N_F_J_001/NISAR_L2_PR_GCOV_033_156_A_010_4005_DHDH_A_20261023T000914_20261023T000949_P05036_N_F_J_001.h5",
+      "maturity": "VALIDATED",
+      "collection": "NISAR_L2_GCOV_V1",
+      "role": "Candidate science product; measurement extraction pending authentication"
+    },
+    {
+      "id": "NISAR_L2_PR_GCOV_034_156_A_010_4005_DHDH_A_20261104T000914_20261104T000949_P05036_N_F_J_001",
+      "date": "2026-11-04T00:09:14.000Z",
+      "track": "156",
+      "direction": "A",
+      "frame": "010",
+      "bandwidth_mode": "4005",
+      "polarization_mode": "DHDH",
+      "url": "https://nisar.asf.earthdatacloud.nasa.gov/NISAR/NISAR_L2_GCOV_V1/NISAR_L2_PR_GCOV_034_156_A_010_4005_DHDH_A_20261104T000914_20261104T000949_P05036_N_F_J_001/NISAR_L2_PR_GCOV_034_156_A_010_4005_DHDH_A_20261104T000914_20261104T000949_P05036_N_F_J_001.h5",
+      "maturity": "VALIDATED",
+      "collection": "NISAR_L2_GCOV_V1",
+      "role": "Candidate science product; measurement extraction pending authentication"
+    }
+  ],
+  "challenge_resource": "https://hackathlone.com/challenges/dancing-with-the-sars#resources",
+  "documentation": "https://nisar-docs.asf.alaska.edu/gcov/",
+  "status": "catalogue verified; not yet used as model inputs"
+}

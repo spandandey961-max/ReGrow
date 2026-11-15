@@ -1,0 +1,33 @@
+{
+  "project": "ReGrow Amaravati",
+  "runtime": "Static hosting; saved fitted Random Forest classifications; optional browser inference module bundled",
+  "model": "Original local 96-tree model, not the separately saved Colab retrain",
+  "data": "Four actual NASA HLS observations with ESA WorldCover 2021 reference labels",
+  "privacy": "No field notebook or account details bundled; theme preference stays in the browser",
+  "files": {
+    "assets/2021-03-31-rgb.jpg": "a893d30ee6dc58e0e1197f598fe2ea38642ede70e7655b0a8de90df68a5f3086",
+    "assets/2024-04-24-rgb.jpg": "35d3c3412749e71fce47d5c2ff12c11e14e0882cc2e68d13b358a120d623204f",
+    "assets/2025-04-24-rgb.jpg": "083fc12d0d9ec7a9bd3aca0fac7de6d5713f8266e3dc8f781601b654496c7487",
+    "assets/2026-04-19-rgb.jpg": "4bd2365bda13775aa127a3099a0129d787a865ab845d9010abd4936fdfb0570f",
+    "assets/app.js": "3a483db59521f7bbd753e2e43657cc16f2d56d2ea6f3af159f23d9a75214977c",
+    "assets/area-analysis.css": "a78df19728c64937fc64eb5901050b45cc6f2a7b5cb326bd1b114a281d850159",
+    "assets/area-analysis.js": "0b954a3b9803299c82e362fca58590c31eb2336a633f28799b3718eeb9ca7566",
+    "assets/DATA_DICTIONARY.md": "f35ad0af9476771f1b3e67efe56da152fa2d0c4c59d42dd546c5ad918486e743",
+    "assets/design.css": "c158f9c29120e237805836c2379bb5400c50b31eecae46a069db4118ceb4c36a",
+    "assets/design.js": "c4fc5574890372db172b2421521497ce0a7dd44e29c8d671759bbd1155148fb8",
+    "assets/forest.json.gz": "131fa7ef5ca5287e538f91e619e89e4cf9abcd61db8812190b6af9264ca5b549",
+    "assets/hosting-api.js": "15c11c7e6970da49c75103129fc4c9cfbe18c005955dfcff2a73f7ad84fec191",
+    "assets/inference-inputs.json.gz": "e96df87fc7911571618eebaee20849b9025f9aa90134c2c0566fcb3ec7d44424",
+    "assets/inference-worker.js": "9ecd2141dc02fd2f9b4a0ba2726657de88cbcfa092b9f475cd3339c158edde16",
+    "assets/logo-symbol.svg": "0adeb1e4f78e41465f28c363e222f707c746f7cc294a0ae4d68884828eb8656a",
+    "assets/logo.svg": "f3a9cf90b714e2e8db55e420ab6d0ea2a8797c8337c349c79100a1fb9d94d9cf",
+    "assets/maplibre.css": "576b085fdd9487a65a19215328c1e086c07ce5bf6da09b666b3806d3d008dae9",
+    "assets/maplibre.js": "be9633c4d870e26fb37f1cfe5c5a77181667114003ea16207ac7850d8da8add1",
+    "assets/observations.json.gz": "2c134b38b98f0e5673fd0d5e6cafaede795f95cd714c998ac0979c36cae3685e",
+    "assets/outlook.js": "5ebacd5f865bbdb80a3defa9afa1835207e00c53d5352801ee5ccd2468eae67c",
+    "assets/ReGrow_Amaravati_Full_Dataset.csv.gz": "1409177dc61b3a13fc84662b1334332c8e7795768a0d823ac2de7e97d5cb03a2",
+    "assets/style.css": "f6b8b9fb5ce77e8b3a802070811af37757a3f8679843cb496a7542e20be47ae9",
+    "index.html": "86da1eef5b6d536771ebaa5d1530f613ad472415c810ab05a4d0c8a84ace92a8",
+    "training-report.json": "257ec6ecf979630b14ca555595c54fe017daf179489920c800938274ea84b0eb"
+  }
+}

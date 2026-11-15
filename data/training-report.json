@@ -1,0 +1,125 @@
+{
+  "algorithm": "Random Forest",
+  "trees": 96,
+  "max_depth": 14,
+  "min_samples_leaf": 3,
+  "seed": 42,
+  "training_date": "2021-03-31",
+  "training_source": "NASA HLS S30 v2",
+  "label_source": "ESA WorldCover 2021 v200 (reference map; not field truth)",
+  "split": "Spatial groups, 16 x 16 analysis cells (~960 m blocks). 60% fit / 20% validation / 20% held-out test. Final model refit on development blocks.",
+  "train_samples": 16972,
+  "test_samples": 4192,
+  "validation_samples": 3984,
+  "train_blocks": 72,
+  "test_blocks": 18,
+  "accuracy": 0.9356,
+  "macro_f1": 0.681,
+  "confusion": [
+    [
+      3341,
+      9,
+      57,
+      121
+    ],
+    [
+      9,
+      9,
+      0,
+      16
+    ],
+    [
+      5,
+      0,
+      484,
+      0
+    ],
+    [
+      52,
+      1,
+      0,
+      88
+    ]
+  ],
+  "classes": {
+    "Vegetation": {
+      "precision": 0.9806281185793954,
+      "recall": 0.9469954648526077,
+      "f1-score": 0.9635183850036049,
+      "support": 3528.0
+    },
+    "Exposed ground": {
+      "precision": 0.47368421052631576,
+      "recall": 0.2647058823529412,
+      "f1-score": 0.33962264150943394,
+      "support": 34.0
+    },
+    "Water": {
+      "precision": 0.8946395563770795,
+      "recall": 0.9897750511247444,
+      "f1-score": 0.9398058252427185,
+      "support": 489.0
+    },
+    "Built surfaces": {
+      "precision": 0.39111111111111113,
+      "recall": 0.624113475177305,
+      "f1-score": 0.4808743169398907,
+      "support": 141.0
+    },
+    "accuracy": 0.9355916030534351,
+    "macro avg": {
+      "precision": 0.6850157491484754,
+      "recall": 0.7063974683768995,
+      "f1-score": 0.680955292173912,
+      "support": 4192.0
+    },
+    "weighted avg": {
+      "precision": 0.9466571267273521,
+      "recall": 0.9355916030534351,
+      "f1-score": 0.9394581009867015,
+      "support": 4192.0
+    }
+  },
+  "trials": [
+    {
+      "max_depth": 10,
+      "min_samples_leaf": 3,
+      "validation_macro_f1": 0.6328
+    },
+    {
+      "max_depth": 14,
+      "min_samples_leaf": 3,
+      "validation_macro_f1": 0.6592
+    }, 
+    {
+      "max_depth": 14,
+      "min_samples_leaf": 7,
+      "validation_macro_f1": 0.6452
+    }
+  ],
+  "feature_names": [
+    "Blue",
+    "Green",
+    "Red",
+    "NIR",
+    "SWIR 1",
+    "SWIR 2",
+    "NDVI",
+    "NDWI",
+    "NDMI",
+    "NDBI"
+  ],
+  "importance": [
+    0.04597,
+    0.07019,
+    0.09247,
+    0.12515,
+    0.13696,
+    0.12754,
+    0.12658,
+    0.20416,
+    0.03918,
+    0.03181
+  ],
+  "caveat": "Held-out agreement with a dated reference map, not independently verified field accuracy. Later years are temporal transfer predictions, not validated rehabilitation outcomes."
+}
